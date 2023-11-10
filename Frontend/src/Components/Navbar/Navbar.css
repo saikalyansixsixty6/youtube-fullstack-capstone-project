@@ -43,3 +43,46 @@
     color:white;
     font-weight:bold;
 }
+.apps_box{
+    height:25px;
+    width:25px;
+    margin: auto 0.7rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+}
+
+.appBox{
+    height:2px;
+    width:2px;
+    border: 1px solid white;
+    margin:0.1rem;
+}
+.Auth_cont_Navbar{
+    width:fit-content;
+    margin:auto 0.5rem;
+    position:inherit;
+    display:flex;
+}
+.Auth_Btn{
+    cursor:pointer;
+    color:#3ea6ff;
+    background-color:rgb(36,36,36);
+    padding:0.5rem;
+    border-radius:0.1rem;
+    margin:0:
+
+}
+.channel_logo_app{
+    height:2.2rem;
+    width:2.2rem;
+    background-color:rgb(224,227,214);
+    border-radius:100%;
+    display:flex;
+}
+.fstChar_logo_app{
+   margin:auto;
+   color:black;
+   font-weight:bold;
+   cursor:pointer;
+}
