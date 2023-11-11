@@ -5,7 +5,10 @@ import {RiVideoAddLine} from "react-icons/ri"
 import {IoMdNotificationsOutline} from "react-icons/io"
 import {BiUserCircle} from "react-icons/bi"
 
+
 const  Navbar = ()=> {
+
+  
   const currentUser = {
      result:{
       name:"kalyan",

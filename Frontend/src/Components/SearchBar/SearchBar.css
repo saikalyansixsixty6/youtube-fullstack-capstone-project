@@ -45,7 +45,8 @@
     border-radius:100%;
     padding: 0.5rem;
     background-color: rgb(51,51,51);
-    
+    color:whitesmoke;
+    margin:auto 0.7rem;
 
 }
 .vid_bell_Navbar,.Mic_SearchBar{

@@ -1,0 +1,33 @@
+.container_leftSideBar{
+    background-color: rgb(25, 25, 25);
+    width: 4.7rem;
+    height: calc(100vh - 3.55 rem);
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+.icon_sidebar_div {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.855);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 0.5rem;
+} I
+.text_sidebar_icon{
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.85rem;
+    padding: 0.2rem;
+}
+.icon_sidebar{
+    font-size:5px;
+}
+.icon_sidebar_div:hover,
+.icon_sidebar_div.active{
+color: aliceblue;
+background-color: rgb(65,68,68);
+}
+.text_sidebar_icon{
+    font-size:12px;
+}
