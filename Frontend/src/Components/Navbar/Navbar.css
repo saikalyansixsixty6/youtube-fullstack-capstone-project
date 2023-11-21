@@ -39,6 +39,7 @@
 }
 .logo_navbar{
     display:flex;
+    text-decoration:none;
 }
 .logo_title_navbar{
     margin:auto;
@@ -79,6 +80,7 @@
     height:2.2rem;
     width:2.2rem;
     background-color:rgb(224,227,214);
+    margin:auto;
     border-radius:100%;
     display:flex;
 }

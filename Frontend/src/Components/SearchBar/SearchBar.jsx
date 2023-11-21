@@ -20,8 +20,8 @@ const SearchBar = ()=> {
             <input type="text" className="iBox_SearchBar"
             value={searchQuery}
             onChange={(e)=>setSearchQuery(e.target.value)}
-            onClick={(e)=>setSearchList(true)}
-            />            <FaSearch className="SearchIcon" onClick={(e)=>setSearchList(false)}/>
+            onClick={()=>setSearchList(true)}
+            />            <FaSearch className="SearchIcon" onClick={()=>setSearchList(false)}/>
             <BsMicFill className="Mic_SearchBar"/>
             {
               searchQuery && searchList && 
