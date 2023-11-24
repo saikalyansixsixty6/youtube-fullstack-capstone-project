@@ -1,7 +1,9 @@
-import WHL from "../../Components/WHL/WHL"
+import ShowVideo from "../ShowVideo/ShowVideo"
 
-function WatchLater() {
-  const watchLater = [
+
+function ShowVideoList({videoId}) {
+
+  const vids = [
 
     {_id: 1,
     video_src: "vid",
@@ -29,15 +31,21 @@ function WatchLater() {
       uploader:"jyz",
       description: "description of video 4"}
                 
-              ];
-
-
+              ]
   return (
-    <>
-    <WHL page={"watch Later"} videoList={watchLater}  />
-    </>
-    
+    <div className="Container_ShowVideoGrid">
+        {
+            vids?.filter(q=>q._id===videoId).map(vid=>{
+                return(
+                    <div key={vid._id} className="video_box_app">
+                        <ShowVideo vid={vid}/>
+                    </div>
+                )
+            })
+        };
+
+    </div>
   )
 }
 
-export default WatchLater
+export default ShowVideoList

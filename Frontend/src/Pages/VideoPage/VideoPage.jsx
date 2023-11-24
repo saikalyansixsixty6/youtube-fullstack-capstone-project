@@ -1,3 +1,4 @@
+import Comments from "../../Components/Comments/Comments"
 import LikeWatchLaterSaveBtns from "./LikeWatchLaterSaveBtns"
 import "./VideoPage.css"
 
@@ -27,7 +28,7 @@ function VideoPage() {
                     <h2>
                         <u>0 Comments</u>
                     </h2>
-                    {/* <LikeWatchLaterSaveBtns/> */}
+                    <Comments/>
                 </div>
             </div>
           </div>

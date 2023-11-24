@@ -23,10 +23,33 @@ function Home() {
   Chanel: "add",
   title: "video 3",
   uploader:"xyz",
-  description: "description of video 3"}
+  description: "description of video 3"},
+  {_id: 4,
+    video_src: "vid",
+    Chanel: "add",
+    title: "video 4",
+    uploader:"jyz",
+    description: "description of video 4"}
               
             ]
-
+const navList = [
+  "All",
+  "Python",
+  "Java",
+  "C++",
+  "Movies",
+  "Animation",
+  "Gaming",
+  "Comedy",
+  "Java",
+  "C++",
+  "C++",
+  "Movies",
+  "Animation"
+  
+  
+  
+];
 
 
 
@@ -35,6 +58,15 @@ function Home() {
     <div className="container_Pages_App">
       <LeftsideBar/>
       <div className="container2_Pages_App">
+        <div className="navigation_Home">
+          {
+            navList.map((navItem) =>(
+            <p key={navItem} className="btn_nav_home">
+              {navItem} 
+              </p>
+            ))
+          }
+        </div>
              <ShowVideoGrid  vids={vids}/>
       </div>
     </div>

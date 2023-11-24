@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function ShowVideo({vid}) {
   return (
     <>
-     <Link to={`"/videopage/:${vid._id}"`}>
+     <Link to={`/videopage/:${vid._id}"`}>
         <video
          src={`${vid?.src}`}
          className="video_showvideo"
